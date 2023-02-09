@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Fredoka One", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* custom */
+
+.row {
+  display: flex;
+}
+
+.container {
+  margin: 1em;
+  padding: 1em;
+}
+
+.col-6 {
+  margin-right: 5em;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  font-weight: bolder;
+}
+
+.text-white {
+  color: white;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-5 {
+  width: 50%;
+  margin: 1em;
+}
+
+.col-4 {
+  width: 30%;
+  margin: 1em;
+}
+
+.card-footer-desc {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.card-footer-desc {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.text-muted {
+  color: grey;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* navbar */
+nav {
+  margin: 1.5em 0 1.5em 0em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav i {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+nav ul:nth-child(1) {
+  font-size: 2.5em;
+}
+
+nav ul:nth-child(2),
+li {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 1em;
+}
+
+nav ul:nth-child(3),
+li {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 1em;
+}
+
+/* hero */
+#hero {
+  background-image: url("/public/images/home/home.webp");
+  height: 80vh;
+  background-position: center;
+  filter: saturate(0.7);
+}
+
+#hero .row {
+  justify-content: start;
+}
+
+#hero .col-6 {
+  margin-top: 6%;
+  margin-left: 4%;
+  display: flex;
+  align-items: flex-start;
+  width: 60%;
+}
+
+#hero .col-6 h1 {
+  font-size: 3.5em;
+}
+/*  */
+#hero button {
+  margin-top: 1em;
+  border: 0;
+  border-radius: 5px;
+  padding: 1em 7em 1em 7em;
+  color: white;
+  font-weight: bold;
+  background-color: #0099db;
+  font-family: "Fredoka One", cursive;
+}
+
+/* section_1 */
+
+#section_1 #row_section_1 {
+  justify-content: space-between;
+}
+
+#section_1 #row_section_2 {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#section_1 .section_1_container {
+  padding: 10em;
+}
+
+/* footer */
+
+footer {
+  background-color: #0099db;
+  font-family: "Inter", sans-serif;
+  padding: 1em 10em 1em 10em;
+}
+
+footer .row {
+  justify-content: center;
+}
+
+footer .col-3:nth-child(1) h1 {
+  font-size: 2em;
+  font-family: "Fredoka One", cursive;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+footer ul li {
+  margin-top: 0.9em;
+}
+
+footer ul li .col-3-tos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer ul li .col-3-tos p {
+  margin-right: 1em;
+}
+
+footer button {
+  margin-top: 1em;
+  border: 0;
+  border-radius: 2px;
+  padding: 0.2em 2em 0.2em 2em;
+  background-color: #ffbe00;
+}
+
+footer i {
+  font-size: 2em;
+}
+
+footer .icons {
+  width: 50%;
+  justify-content: center;
+}
+
+footer .newslatter p {
+  margin-top: 0.4em;
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+}
+
+footer input[type="email"] {
+  width: 100%;
+  padding: 1em;
+  margin: 1em 0 1em 0;
+  box-sizing: border-box;
+}
